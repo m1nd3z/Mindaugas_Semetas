@@ -17,18 +17,17 @@
 
         <fieldset>
             <legend>Contact info</legend>
-            <p>
-                <label for="name">Name <sup style="color: red;">*</sup></label>
-                <input type="text" name="name" id="name" required>
+            <label for="name">Name <sub style="color: red;">*</sub></label>
+            <input type="text" name="name" id="name">
+            <br>
+            <br>
+            <label for="phone">Phone&nbsp;&nbsp;</label>
+            <input type="text" name="phone" id="phone">
+            <br>
+            <br>
+            <label for="email">Email <sup style="color: red;">*</sup></label>
+            <input type="text" name="email" id="email" required>
 
-            <p>
-                <label for="phone">Phone&nbsp;&nbsp;</label>
-                <input type="text" name="phone" id="phone">
-            </p>
-            <p>
-                <label for="email">Email <sup style="color: red;">*</sup></label>
-                <input type="text" name="email" id="email" required>
-            </p>
         </fieldset>
 
         <br>
@@ -39,16 +38,14 @@
                 <label for="age">Age <sup style="color: red;">*</sup></label>
                 <input type="text" name="age" id="age" required>
             </p>
-
-            <label for="sex" id="sex">Sex&nbsp;&nbsp;&nbsp;&nbsp;</label>
-            <select name="sex">
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-            </select>
-
+            <p>
+                <label for="sex" id="sex">Sex&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <select name="sex">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </p>
             <br>
-            <br>
-
             <label for="message">List your best qualities:</label><br>
             <textarea name="message" id="message" cols="30" rows="10"></textarea>
         </fieldset>
