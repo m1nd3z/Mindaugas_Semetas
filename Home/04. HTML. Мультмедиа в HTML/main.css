@@ -1,0 +1,17 @@
+button.left {
+    margin: 0;
+        position: absolute;
+        left: 0%;
+}
+
+button.right {
+    margin: 0;
+        position: absolute;
+        left: 97%;
+}
+
+button.center {
+        margin: 0;
+        position: absolute;
+        left: 49%;
+      }
