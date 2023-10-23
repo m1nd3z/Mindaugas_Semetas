@@ -1,0 +1,19 @@
+body {
+    font-size:10px;
+}
+
+blockquote {
+    text-align: right;
+}
+
+h1 {
+    display: none;
+}
+
+   del.del {
+    color: black;
+   }
+
+   u.u {
+    color: black;
+   }

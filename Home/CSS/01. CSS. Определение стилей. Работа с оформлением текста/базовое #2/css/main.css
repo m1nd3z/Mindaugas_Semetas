@@ -1,0 +1,28 @@
+body {
+    background-color: white;
+}
+
+p.p1 {
+    text-align: right;
+    font-weight: bold;
+}
+
+address {
+    text-align: right;
+}
+
+p.p2 {
+    text-align: right;
+}
+
+p.p3 {
+    font-size: large;
+    font-family: Lucida Handwriting;
+    text-decoration: underline;
+}
+
+
+p.p4 {
+    font-family: Papyrus;
+
+}
