@@ -29,6 +29,10 @@ p.right2 {
     font-size: 18px;
 }
 
+p.bottom {
+    font-size: 18px;
+}
+
 article.right1 {
     /* width: 200px; */
     height: 150px;
@@ -38,6 +42,7 @@ article.right1 {
     font-weight: bold;
     /* float: right; */
     margin-bottom: .2em;
+    overflow: auto;
 }
 
 article.right2 {
@@ -49,6 +54,7 @@ article.right2 {
     font-weight: bold;
     /* float: right; */
     margin-bottom: .2em;
+    overflow:scroll;
     
 }
 
@@ -61,6 +67,7 @@ article.right2 {
     font-weight: bold;
     float: left;
     margin-bottom: .2em;
+    overflow: auto;
 }
 
 .bottom {
@@ -70,10 +77,12 @@ article.right2 {
     font-size: 20px;
     font-weight: bold;
     clear: both;
+    overflow: auto;
 }
 
 div.fixed {
     position:fixed;
+    float: right;
     bottom: 54%;
     right: 1%;
     width: 120px;
