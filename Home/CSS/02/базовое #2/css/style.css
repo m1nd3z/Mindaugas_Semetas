@@ -4,14 +4,6 @@
   padding: 5px;
   box-sizing: border-box;
 }
-/* 
-body {
-  font-family: "Roboto", sans-serif;
-  min-height: 100vh;
-  padding: 5% 10%;
-  font-size: 2em;
-  font-family: "Roboto", sans-serif;
-} */
 
 body {
   min-height: 100vh;
@@ -27,27 +19,7 @@ body {
   font-size: 25px;
   padding: 0;
   margin: 10px;
-  /* background-color: lightblue; */
-  text-align: left;
 }
-
-/* .container2 {
-  list-style:disc outside none;
-  display:list-item; 
-  list-style-type: upper-roman;
-  font-weight: bold;
-  font-size: 25px;
-  padding: 0;
-  margin: 10px;
-  background-color: lightblue;
-  text-align: left;
-} */
-
-/* .container {
-  list-style:disc outside none;
-  display:list-item; 
-  list-style-type: upper-roman;
-  } */
 
 ol {
   list-style-type: lower-roman;
